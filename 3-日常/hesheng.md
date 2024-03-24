@@ -6,7 +6,7 @@
 
 <img src="hesheng/image-20231107155622932.png" alt="image-20231107155622932" style="zoom:50%;" />
 
-![image-20231107150612182](hesheng/image-20231107150612182.png)
+<img src="hesheng/image-20231107150612182.png" alt="image-20231107150612182" style="zoom:50%;" />
 
 
 
@@ -16,9 +16,9 @@
 
 主和弦、属和弦和下属和弦称为正三和弦，因为反映了调式特征。
 
-![image-20231107150836379](hesheng/image-20231107150836379.png)
+<img src="hesheng/image-20231107150836379.png" alt="image-20231107150836379" style="zoom:50%;" />
 
-![image-20231107150848816](hesheng/image-20231107150848816.png)
+<img src="hesheng/image-20231107150848816.png" alt="image-20231107150848816" style="zoom:50%;" />
 
 <img src="hesheng/image-20231107155046195.png" alt="image-20231107155046195" style="zoom:80%;" />
 
@@ -49,3 +49,5 @@
 终止处的T，七级导音到一级主音的解决需求比较迫切时，可以用三个根音，一个三音。
 
 <img src="hesheng/image-20231113174327884.png" alt="image-20231113174327884" style="zoom:67%;" />
+
+<img src="hesheng/image-20240317210728563.png" alt="image-20240317210728563" style="zoom:50%;" />

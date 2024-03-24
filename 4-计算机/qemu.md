@@ -8,7 +8,7 @@
 >
 > 1. 搜索源码看没有实现
 > 2. 搜索仓库看有没有对应的 commit
-> 3. wikipedia
+> 3. wikipedia、RISC-V 手册
 
 ## Zc*
 
