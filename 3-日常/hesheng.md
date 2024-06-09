@@ -51,3 +51,7 @@
 <img src="hesheng/image-20231113174327884.png" alt="image-20231113174327884" style="zoom:67%;" />
 
 <img src="hesheng/image-20240317210728563.png" alt="image-20240317210728563" style="zoom:50%;" />
+
+<img src="hesheng/image-20240505150611590.png" alt="image-20240505150611590" style="zoom: 67%;" />
+
+三音跳进只发生在T->S和T->D之间，连续的两个音，一高一低，高的一定是开放排列，低的一定是密集排列。
