@@ -1,0 +1,10 @@
+启动终端
+sudo screen /dev/ttyUSB0 115200
+启动 openocd gdb 服务器
+openocd -f /home/djhuang/Desktop/raspberry/openocd-code/tcl/interface/jlink.cfg -f /home/djhuang/Desktop/raspberry/openocd-code/tcl/target/bcm2711.cfg
+现在用的是debian的根目录
+
+djhuang@ubuntu:~/Desktop/raspberry$ ls /media/djhuang/boot/
+ bcm2711-rpi-4-b.dtb   benos.bin   bootcode.bin   boot.scr   config.txt   Image(linux)   loop.bin   start4.elf  'System Volume Information'   u-boot.bin(u-boot)
+djhuang@ubuntu:~/Desktop/raspberry$ ls /media/djhuang/root/
+bin  boot  boot.scr  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
