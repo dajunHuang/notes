@@ -2,6 +2,9 @@
 title:  一些汇总
 date: 2023/11/26
 ---
+# 技术
+TODO 可作为简历的素材
+
 
 # 番剧
 
@@ -22,8 +25,11 @@ GAMERS电玩咖
 火星异种
 暗杀教室
 终结的炽天使
+败犬女主太多了
 
 # 歌
+
+https://space.bilibili.com/447266390/favlist?fid=2651947790
 
 https://space.bilibili.com/447266390/favlist?fid=767919190
 
@@ -60,6 +66,8 @@ Arcaea
 osu!
 烟火
 猛兽派对
+帝国时代4
+chained together
 
 
 # gal
@@ -77,7 +85,7 @@ ATRI -My Dear Moments
 苍之彼方的四重奏
 共结情缘的剑舞恋曲-椿恋歌-
 Summer Pockets Reflection Blue
-灵感满溢的甜蜜创想
+灵感满溢的甜蜜创想、FD
 心跳心跳文学部
 clover days
 Dracu-riot!
@@ -96,6 +104,7 @@ Loopers
 苍之比方的四重奏EXTRA1
 近月少女的礼仪
 候鸟
+饿殍：明末千里行
 
 
 
