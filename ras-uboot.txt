@@ -1,0 +1,37 @@
+arch/arm/cpu/armv8/start.S:20		_start
+arch/arm/cpu/armv8/start.S:55		reset
+board/raspberrypi/rpi/lowlevel_init.S:15	save_boot_params		fw_dtb_pointer 指针指向的值换成所在地址。
+arch/arm/cpu/armv8/start.S:121				设置 HCR_EL2, 异常向量表VBAR_EL2为vector,等体系结构寄存器
+arch/arm/lib/crt0_64.S:67		_main
+arch/arm/lib/crt0_64.S:89		board_init_f_alloc_reserve	在栈顶分配global_data空间
+arch/arm/lib/crt0_64.S:93		board_init_f_init_reserve	初始化global_data和malloc的空间
+common/board_f.c:969		board_init_f		初始化一系列外设，比如串口、定时器，或者打印一些消息等。
+				fdtdec_setup		从bloblist，board，spl获取设备树，最终都没拿到
+arch/arm/lib/relocate_64.S:22		relocate_code
+common/board_r.c:745		board_init_r
+cmd/booti.c:23			booti_start
+
+stack_top: 0x7fffe30
+
+gd->malloc_base, base: 0x7ffde30
+gd, gd_ptr: globl_data
+sp: 0x7ffdc50
+
+fw_dtb: 0x7fe2d00
+
+(r)gd->relocaddr: 0x7f2d000
+images: 0x7fca9e0
+(r)new_gd: 0x7b28d60
+(r)new_fdt: 0x7b1bae0
+
+relocated_addr: 0x200000
+
+fw_dtb_pointer : 0x1079e0 -> 0x7fe2d00
+
+CONFIG_TEXT_BASE:u-boot load addr: 0x080000
+----
+image_size: 0x15f000
+
+
+fdt_addr fdt_addr_r fdtcontroladdr 都是设备树
+

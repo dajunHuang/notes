@@ -1,0 +1,17 @@
+export PLATFORM=qemu-riscv64-virt
+export DEMO=baremetal
+export ARCH=riscv64
+
+export CROSS_COMPILE=riscv64-unknown-elf-
+
+export BAO_DEMOS=/home/djhuang/Desktop/bao-demos
+export BAO_DEMOS_WRKDIR=$BAO_DEMOS/wrkdir
+export BAO_DEMOS_WRKDIR_SRC=$BAO_DEMOS_WRKDIR/srcs
+export BAO_DEMOS_WRKDIR_BIN=$BAO_DEMOS_WRKDIR/bin
+export BAO_DEMOS_WRKDIR_PLAT=$BAO_DEMOS_WRKDIR/imgs/$PLATFORM
+export BAO_DEMOS_WRKDIR_IMGS=$BAO_DEMOS_WRKDIR_PLAT/$DEMO
+
+
+
+
+

@@ -1,0 +1,55 @@
+kernel/arch/arm64/armv8-a/entry.S:39	_start
+kernel/src/init.c:103			init_kernel
+
+
+_config_start: 
+rootserver/vmm/config/config_qemu_virt.c
+
+
+vm-rootserver:
+
+rootserver/command/vm.c:13	run_vm_main
+rootserver/vmm/vm/vmm.c:96		vmm_new_guest
+rootserver/vmm/vm/vm.c:19				vm_create
+							mkcap(cptr_append(ts->cptr, vm->cptr), CAP_VM, vcpu_num);
+rootserver/vmm/vm/vmm.c:128		vmm_init_guest
+rootserver/vmm/vm/vm.c:59				vm_init
+							__syscall2(vm->cptr, msgtag_make(2, CAP_VM_OP_INIT, 0), vm_space_hpa);
+rootserver/vmm/vm/vmm.c:66		vmm_run_guest
+rootserver/vmm/vm/vm.c:100			vm_run
+							__syscall1(vm->cptr, msgtag_make(2, CAP_VM_OP_RUN, 0));
+							
+rootserver/command/vm.c:40	delete_vm_main
+rootserver/vmm/vm/vmm.c:18		vmm_delete_guest
+							__syscall1(vm->cptr, msgtag_make(2, CAP_VM_OP_DELETE, 0));
+
+vm-kernel:
+kernel/hypext/vm.c:27		vm_object_init
+kernel/hypext/vm.c:240		cap_vm_dispacher
+kernel/hypext/vm.c:144			vm_init
+kernel/hypext/vm.c:191			vm_run
+kernel/hypext/vm.c:91			vm_delete
+
+
+kernel:
+
+kernel/src/init.c:103				init_kernel
+kernel/arch/arm64/cortex-a55/cpu.c:44			cpu_init
+kernel/arch/arm64/mach-qemu_virt/gic_v2.c:998			gicc_init
+kernel/arch/arm64/mach-qemu_virt/gic_v2.c:1018		gich_init
+kernel/arch/arm64/cortex-a55/cpu.c:12				set_vectors	设置异常向量表
+kernel/arch/arm64/mach-qemu_virt/gic_v2.c:988		gicc_init
+kernel/irq/irq.c:99					irq_handler_init		
+kernel/src/addrspace.c:198				initial_addrspace_init	初始化内核和RS的地址空间
+kernel/driver/qemu_virt/platsmp.c:10			smp_boot_secondary_cpu
+kernel/src/init.c:40					create_rootserver_task
+
+
+qemu:
+kernel/driver/qemu_virt/device.c		ksram, ksdev, usram, usdev
+
+
+
+
+				
+

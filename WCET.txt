@@ -1,0 +1,16 @@
+正常情况下：RET是空的，UNCOND、SEQ、CALL只有一个，COND有两个
+循环 loop_process, readBlockCounts 确定还不知道是怎么做的
+isdeeper, calles num_calle, callgraph 有无存在必要？
+infeas_analysis 中的 abstract execution 是要干什么？目前还是错的
+
+202012081622@std.uestc.edu.cn，密码Admin@123；第二作者：肖堃 邮箱xiaokun@uestc.edu.cn；第三作者 周永（邮箱你找他要下）；第四作者是你（作为通讯作者）
+
+The main advantage of estimation over simulation should be shorter computation time. Is there a time gain over the simulator for selected benchmarks?
+
+Manuscript ID: applsci-3079258
+Article type: Article
+Title: WCET Analysis Based on Micro-architecture Modeling for Embedded System Security
+Journal: Applied Sciences
+Section: Computing and Artificial Intelligence
+Special Issue: State-of-the-Art of Network Attack Detection and Situation Awareness Analysis
+

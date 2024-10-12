@@ -1,0 +1,28 @@
+存取数段可以用函数代替
+最大最小值可以函数代替
+
+/home/dajunhuang/plct-qemu/include/qemu/host-utils.h 函数替代
+
+函数来读写64bit数	
+
+GEN_SIMD_TRANS_ZPS_32M_64 等宏的名字
+
+../target/riscv/insn32.decode:1006: vghsh_vv 1011001. ........ .010.... .1110111
+../target/riscv/insn32.decode:1289: rstsa32 1011001. ........ .010.... .1110111
+
+../target/riscv/insn32.decode:1002: vsm3me_vv 1000001. ........ .010.... .1110111
+../target/riscv/insn32.decode:1299: srli32_u 1000001. ........ .010.... .1110111
+
+../target/riscv/insn32.decode:984: vaesef_vv 1010001. ....0001 1010.... .1110111
+../target/riscv/insn32.decode:986: vaesdf_vv 1010001. ....0000 1010.... .1110111
+../target/riscv/insn32.decode:988: vaesem_vv 1010001. ....0001 0010.... .1110111
+../target/riscv/insn32.decode:990: vaesdm_vv 1010001. ....0000 0010.... .1110111
+../target/riscv/insn32.decode:1007: vgmul_vv 1010001. ....1000 1010.... .1110111
+../target/riscv/insn32.decode:1011: vsm4r_vv 1010001. ....1000 0010.... .1110111
+../target/riscv/insn32.decode:1308: umax32 1010001. ........ .010.... .1110111
+
+
+
+ Add support for 8-bit Compare Instructions in RISC-V P extension
+
+Add support for  8-bit Addition & Subtraction Instructions in RISC-V P extension
